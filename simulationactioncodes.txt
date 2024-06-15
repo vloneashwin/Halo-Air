@@ -9,3 +9,6 @@ sudo dnf install mesa-libGLU-devel freeglut-devel libXmu-devel libXi-devel
 change directory to ardupilot repo and build a firware for pixhawk4.
 need a ground station for simulation => either Mission Planner(windows) or QGroundControl(Linux and cross)
 image upload and gs controll is done in a contailer probably in a docker container but using STIL simulation tech
+
+setting up qgroundcontrol:
+https://github.com/mavlink/qgroundcontrol/releases
