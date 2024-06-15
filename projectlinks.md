@@ -13,3 +13,5 @@ https://docs.px4.io/main/en/config_fw/
 https://firmware.ardupilot.org/Plane/stable/
 
 https://github.com/mavlink/qgroundcontrol/releases
+
+https://ardupilot.org/dev/docs/plane-sitlmavproxy-tutorial.html

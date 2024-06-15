@@ -12,3 +12,7 @@ image upload and gs controll is done in a contailer probably in a docker contain
 
 setting up qgroundcontrol:
 https://github.com/mavlink/qgroundcontrol/releases
+
+
+setting up SITL on linux 
+https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html
