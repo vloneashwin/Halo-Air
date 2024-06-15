@@ -9,3 +9,5 @@ https://github.com/PX4/PX4-Autopilot
 https://github.com/vloneashwin/Halo-Air/
 
 https://docs.px4.io/main/en/config_fw/
+
+https://firmware.ardupilot.org/Plane/stable/
