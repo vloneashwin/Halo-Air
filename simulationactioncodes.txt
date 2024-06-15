@@ -1,0 +1,11 @@
+setting up the build env and install dependencies first on fedora 40.
+sudo dnf install git python3 python3-pip python3-numpy python3-opencv python3-serial
+sudo dnf install gcc-c++ gcc-arm-none-eabi g++-arm-none-eabi make cmake
+sudo dnf install libtool protobuf protobuf-compiler libudev-devel
+sudo dnf install glibc.i686 libstdc++-devel.i686
+sudo dnf install mesa-libGLU-devel freeglut-devel libXmu-devel libXi-devel
+
+
+change directory to ardupilot repo and build a firware for pixhawk4.
+need a ground station for simulation => either Mission Planner(windows) or QGroundControl(Linux and cross)
+image upload and gs controll is done in a contailer probably in a docker container but using STIL simulation tech
