@@ -16,3 +16,6 @@ https://github.com/mavlink/qgroundcontrol/releases
 
 setting up SITL on linux 
 https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html
+
+installing FlightGear for realistic 3D integration of the simulation
+sudo dnf install -y FlightGear
