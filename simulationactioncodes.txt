@@ -19,3 +19,15 @@ https://ardupilot.org/dev/docs/setting-up-sitl-on-linux.html
 
 installing FlightGear for realistic 3D integration of the simulation
 sudo dnf install -y FlightGear
+
+
+after installing the "QGroundControl" appimage start the STIL simulation via
+./Tools/autotest/arduplane/sim_vehicle.py -v ArduPlane
+
+start QGroundControl and build the plan onto the plane
+fix rtl mode and install new flight plan on the plane
+param set RTL_AUTOLAND 1
+param set DO_LAND_START 0
+
+
+
