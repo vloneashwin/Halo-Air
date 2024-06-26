@@ -30,4 +30,8 @@ param set RTL_AUTOLAND 1
 param set DO_LAND_START 0
 
 
+get logs from ground control
+mavlogdump.py --types GPS --format csv log_1_2024-6-25-12-58-51.bin > gps_log.csv
+check --types in command to get all different parameter logs and then combine them into one csv if needed
+need to write a script to select the timestamp instances in intervals to create a subdued plot and visualisation in power
 
